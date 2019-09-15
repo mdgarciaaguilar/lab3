@@ -1,7 +1,7 @@
 
 
 $.ajax({
-  url : 'https://github.io/mdgarciaaguilar/Web-labs/blob/master/labs_completos/grammys/data/grammys.json,
+  url : 'https://mdgarciaaguilar.github.io/lab3/data/grammys.json',
   type : 'GET',
   dataType : 'json',
   success: function(data) {
