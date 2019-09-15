@@ -7,10 +7,10 @@ $.ajax({
   success: function(data) {
     let newHtml = ''
 
-    for( let i = 0; i < data.length; i++) {
+    for( let i = 0; i < data.fields.length; i++) {
       newHtml += `
-        <option value = "${data[i].identifier}">
-          ${data[i].state}
+        <option value = "${data.fields[i].field_id - 1}">
+          ${data.fields[i].field}
         </option>
       `
     }
