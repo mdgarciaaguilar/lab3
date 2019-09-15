@@ -10,6 +10,10 @@ body {
   padding: 20px 0px;
 }
 
+.titulo {
+  background-color: rgba(255, 187, 51, 0.5);
+}
+
 h1 {
   text-align: center;
   font-size: 2.5em;
@@ -40,6 +44,8 @@ h2 {
   font-size: 15px;
 }
 
+
+
 h3 {
   color: #b69859;
   text-transform: uppercase;
@@ -63,4 +69,8 @@ span {
 
 hr {
   margin-top: 30px;
+}
+
+.nominees_list {
+  font-family: sans-serif;
 }
